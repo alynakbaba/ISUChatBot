@@ -1,0 +1,441 @@
+{
+  "intents": [
+    {
+      "tag": "selamlama",
+      "patterns": [
+        "Merhaba",
+        "Selam",
+        "Burada mısın?",
+        "Hi",
+        "İyi günler",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Merhaba, ziyaretiniz için teşekkürler",
+        "Merhaba, sizin için ne yapabilirim?",
+        "Merhaba, sana nasıl yardımcı olabilirim?"
+      ]
+    },
+    {
+      "tag": "nasılsın",
+      "patterns": [
+        "Nasılsın?",
+        "sen nasılsın?",
+        "İyi misin"
+      ],
+      "responses": [
+        "İyiyim, sen nasılsın?",
+        "İyiyim, teşekkürler, sen nasılsın?"
+      ]
+    },
+    {
+      "tag": "iyiyim",
+      "patterns": [
+        "İyiyim",
+        "iyiyim",
+        "iyi",
+        "İyiyim, teşekkürler",
+        "Çok iyiyim"
+      ],
+      "responses": [
+        "Harika! Sana nasıl yardımcı olabilirim!",
+        "Çok iyi! Sana nasıl yardımcı olabilirim!",
+        "Çok sevindim, sana nasıl yardımcı olabilirim!"
+      ]
+    },
+    {
+      "tag": "sohbet_robotu",
+      "patterns": [
+        "Sen kimsin?",
+        "Sen bir robot musun?",
+        "Sen bir insan mısın?",
+        "Sen bir insan mısın yoksa bir robot musun?",
+        "Senin ismin ne?"
+      ],
+      "responses": [
+        "Ben bir sohbet robotuyum",
+        "Ben bir sohbet robotuyum, adım İSÜ Chatbot",
+        "Ben bir sohbet robotuyum, adım İSÜ Chatbot ve seninle konuşmaktan mutluluk duyuyorum",
+        "Ben İstinye Üniversitesi'ne ait bir Chatbotum"
+      ]
+    },
+    {
+      "tag": "güle_güle",
+      "patterns": [
+        "Bay bay",
+        "Görüşürüz",
+        "Görüşmek üzere",
+        "Güle güle"
+      ],
+      "responses": [
+        "Sonra görüşürüz, ziyaretiniz için teşekkürler",
+        "İyi günler",
+        "Güle güle, tekrar beklerim",
+        "Görüşmek üzere, tekrar beklerim",
+        "Hoşçakal! Yakında tekrar gelin."
+      ]
+    },
+    {
+      "tag": "teşekkürler",
+      "patterns": [
+        "Teşekkürler",
+        "Teşekkür ederim",
+        "Bu faydalı oldu",
+        "Çok teşekkürler!",
+        "Yardımın için teşekkürler"
+      ],
+      "responses": [
+        "Memnuniyetle yardım ettim!",
+        "İstediğin zaman!",
+        "Memnuniyetle!",
+        "Her zaman buradayım.",
+        "Her zaman yardımcı olmaya çalışacağım.",
+        "Her zaman buradayım, yardıma ihtiyacın olursa bana bildir.",
+        "Rica ederim!",
+        "Ne demek!",
+        "Bir şey değil!",
+        "Önemli değil!"
+      ]
+    },
+    {
+      "tag": "ois",
+      "patterns": [
+        "OİS kullanıcı adı ve şifremi nereden öğrenebilirim?",
+        "ois kullanıcı adımı nasıl öğrenebilirim?",
+        "ois şifremi nasıl öğrenebilirim?"
+      ],
+      "responses": [
+        "Öğrenci mail adresin ve şifren Öğrenci Kayıt İşleri (ÖKİD) tarafından kayıt sırasında belirttiğin mail adresine gönderilecektir. Eğer herhangi bir mesaj veya mail almadıysan “bstdestek@istinye.edu.tr” mail adresine mail atarak iletişime geçebilirsin."
+      ]
+    },
+    {
+      "tag": "İSÜ",
+      "patterns": [
+        "İstinye Üniversitesi hakkında bilgi verir misin?",
+        "İstinye Üniversitesi hakkında bilgi ver",
+        "Üniversite hakkında bilgi ver",
+        "Okulla ilgili bilgi ver"
+      ],
+      "responses": [
+        "İstinye Üniversitesi, “Liv Hospital”, “Medical Park ” ve “VM Medical Park” olmak üzere üç ayrı hastane markasını tek çatı altında buluşturan MLP Care Grubu’nun 25 yıllık bilgi ve birikiminin devamı olarak, 21. Yüzyıl Anadolu Vakfı tarafından 23.04.2015 tarihinde kurulmuştur. Detaylı bilgi için https://www.istinye.edu.tr/tr/universite/istinye-universitesi adresini ziyaret edebilirsin."
+      ]
+    },
+    {
+      "tag": "ogrenci_mail_adresi",
+      "patterns": [
+        "Öğrenci mail adresini nasıl kullanmaya başlayabilirim?",
+        "Öğrenci mail adresimi nasıl kullanabilirim?"
+      ],
+      "responses": [
+        "Öğrenci numaran ve kayıt işlemleri sırasında vermiş olduğun mailine gönderilen şifre ile https://login.microsoftonline.com/ adresi üzerinden mail adresini kullanmaya başlayabilirsin. Eğer herhangi bir mesaj veya mail almadıysan ÖKİD ile “bstdestek@istinye.edu.tr” mail adresine mail atarak iletişime geçebilirsin."
+      ]
+    },
+    {
+      "tag": "ois_islemler",
+      "patterns": [
+        "ders seçme nereden yapabilirim",
+        "ders seçme işlemleri",
+        "ders seçme işlemlerini nereden yapabilirim",
+        "sınav sonuçları",
+        "sınav programı",
+        "oise nasıl giriş yapabilirim",
+        "OİS'e nasıl giriş yapabilirim"
+      ],
+      "responses": [
+        "https://ois.istinye.edu.tr/auth/login adresinden öğrenci numaran ve şifren ile giriş yapabilirsin. Ois işlemlerinizi gerçekleştirebilirsiniz."
+      ]
+    },
+    {
+      "tag": "ders_kayıt",
+      "patterns": [
+        "Ders kayıt işlemlerini nasıl yapabilirim",
+        "ders kayıt",
+        "ders kayıt işlemleri",
+        "ders kayıt işlemlerini nereden yapabilirim"
+      ],
+      "responses": [
+        "https://ois.istinye.edu.tr/auth/login adresi üzerinden kullanıcı adı ve şifreniz ile öğrenci sayfana ulaşabilirsin. Öğrenci sayfandan “ders işlemleri” altında yer alan “ders seçme”yi tıklayarak zorunlu ve seçmeli derslerini seçebilirsin. Ders kayıt işlemlerini yaparken dersler ve kredi toplamlarını kontrol etmeyi unutma."
+      ]
+    },
+    {
+      "tag": "transkript",
+      "patterns": [
+        "Transkriptimi nasıl görüntüleyebilirim",
+        "Transkript",
+        "Transkriptimi nereden görüntüleyebilirim"
+      ],
+      "responses": [
+        "https://ois.istinye.edu.tr/auth/login adresi üzerinden kullanıcı adı ve şifreniz ile öğrenci sayfana ulaşabilirsin. Öğrenci sayfandan “öğrenci işlemleri” altında yer alan “transkript”i tıklayarak transkriptini görüntüleyebilirsin."
+      ]
+    },
+    {
+      "tag": "ders_programı",
+      "patterns": [
+        "Ders programımı nasıl görüntüleyebilirim",
+        "Ders programı",
+        "Ders programımı nereden görüntüleyebilirim"
+      ],
+      "responses": [
+        "https://ois.istinye.edu.tr/auth/login adresi üzerinden kullanıcı adı ve şifreniz ile öğrenci sayfana ulaşabilirsin. Öğrenci sayfandan “öğrenci işlemleri” altında yer alan “ders programı”nı tıklayarak ders programını görüntüleyebilirsin."
+      ]
+    },
+    {
+      "tag": "blackboard",
+      "patterns": [
+        "Blackboard'a nasıl giriş yapabilirim",
+        "Blackboard",
+        "ders notlarımı nereden görebilirim",
+        "Sınav sonuçlarımı nereden görüntüleyebilirim",
+        "Ödevlerimi nereden görebilirim",
+        "online ders",
+        "online derslerime nereden girebilirim"
+      ],
+      "responses": [
+        "istinye.blackboard.com üzerinden takip edebilirsin. Kullanıcı adı ve şifren ile giriş yapabilirsin"
+      ]
+    },
+    {
+      "tag": "ders_seçme_süresi",
+      "patterns": [
+        "Ders seçme süresi geçti ne yapmalıyım",
+        "ders kayıt süresi geçti ne yapacağım",
+        "ders kayıt kapandı ne yapmalıyım"
+      ],
+      "responses": [
+        "Akademik takvimde belirtilen süreler içerisinde ders kaydını gerçekleştirmediğin takdirde derslere devam edemez, sınavlara giremez ve öğrencilik haklarından yararlanamazsın. Bu nedenle https://www.istinye.edu.tr/tr/ogrenci-isleri/akademik-takvim  adresinden önemli tarihleri kontrol etmelisin."
+      ]
+    },
+    {
+      "tag": "uluslarası_ogrenci",
+      "patterns": [
+        "Uluslararası öğrenci ders seçme işlemleri",
+        "Uluslararası öğrenciyim. YÖK zorunlu derslerinde hangi sectionları seçmem gerekir?"
+      ],
+      "responses": [
+        "Eğer uluslararası öğrenciysen YÖK zorunlu derslerinde farklı section seçmen gerekebilir. Akademik danışmanından bu konuda yardım alabilirsin."
+      ]
+    },
+    {
+      "tag": "ulaşım",
+      "patterns": [
+        "Üniversiteye nasıl ulaşabilirim",
+        "Üniversiteye nasıl gelebilirim",
+        "Üniversiteye nasıl gidebilirim",
+        "Üniversitenin ulaşımı nasıl",
+        "Okulun servisleri var mı",
+        "Okulun servisi var mı",
+        "Servislerin güzergahı nedir",
+        "Servislerin güzergahı ne",
+        "Servislerin güzergahı",
+        "Servis"
+      ],
+      "responses": [
+        "Belirli noktalardan servis imkânı bulunmaktadır. Servis saatleri için https://www.istinye.edu.tr/tr/iletisim/servis-saatleri adresini inceleyebilirsin."
+      ]
+    },
+    {
+      "tag": "ogrenci_kimlik_kartı",
+      "patterns": [
+        "Öğrenci kimlik kartımı nasıl alabilirim?",
+        "Öğrenci kimlik kartı",
+        "Öğrenci kimlik kartımı ne zaman alabilirim"
+      ],
+      "responses": [
+        "Kesin kayıt işlemlerini tamamladıktan sonra Öğrenci Kayıt İşleri (ÖKİD) tarafından imza karşılığında öğrenci kimliğini alabilirsin."
+      ]
+    },
+    {
+      "tag": "ois_sifre",
+      "patterns": [
+        "OİS şifremi nasıl öğrenebilirim",
+        "OİS şifremi unuttum",
+        "OİS şifremi nasıl değiştirebilirim",
+        "OİS şifremi kaybettim, ne yapmam gerekir"
+      ],
+      "responses": [
+        "https://ois.istinye.edu.tr/auth/login adresi üzerinden parolamı unuttuma tıklayarak öğrenci numaran ve doğum tarihini girerek yeni parola talep edebilirsin."
+      ]
+    },
+    {
+      "tag": "akademik_kadro",
+      "patterns": [
+        "Akademik kadro",
+        "Akademik kadro hakkında bilgi verir misin",
+        "Akademik kadro kimlerden oluşuyor"
+      ],
+      "responses": [
+        "Akademik kadromuz alanlarında öne çıkmış, saygın araştırmacı öğretim üyelerinden oluşmaktadır. Gerekli bilgileri ilgili bölüm sayfalarından bulabilirsiniz."
+      ]
+    },
+    {
+      "tag": "lab_atolye",
+      "patterns": [
+        "Laboratuvar ve atölyeler",
+        "Laboratuvar ve atölyeler hakkında bilgi verir misin",
+        "Laboratuvar ve atölyeler nelerdir",
+        "Üniversitenizin Laboratuar ve Atölye Olanakları Nelerdir?"
+      ],
+      "responses": [
+        "Üniversitemize ait tam teşekküllü 63 laboratuvar, 3 bilgisayar laboratuvarı ve 4 mimarlık atölyemiz bulunmaktadır. Uygulama ve araştırma merkezlerimiz; Kök Hücre ve Doku Mühendisliği Uygulama ve Araştırma Merkezi (İSÜKÖK), Moleküler Kanser Uygulama ve Araştırma Merkezi (İSÜMKAM), Nörolojik Bilimler Uygulama ve Araştırma Merkezi (ISUCAN), 3B Tasarım ve Prototipleme Uygulama ve Araştırma Merkezi (İSÜ3D), Sürekli Eğitim ve Araştırma Merkezi, Türkçe Eğitimi ve Öğretimi Uygulama ve Araştırma Merkezi, Ekonomi ve Politika Uygulama ve Araştırma Merkezi, Tıbbi Yapay Zeka Uygulama ve Araştırma Merkezi."
+      ]
+    },
+    {
+      "tag": "fakulte_yuksekokul",
+      "patterns": [
+        "Fakülte ve Yüksekokullar",
+        "Fakülte ve Yüksekokullar hakkında bilgi verir misin",
+        "Fakülte ve Yüksekokullar nelerdir",
+        "Fakülte ve Yüksekokullarınız hakkında bilgi verir misiniz",
+        "Üniversitenizde Hangi Fakülteler ve Yüksekokullar Bulunmaktadır?"
+      ],
+      "responses": [
+        "İstinye Üniversitesi’nde; 9 adet fakülte, 2 adet yüksekokul bulunmaktadır. \n\nFakülteler:\n\nEczacılık Fakültesi \nİnsan ve Toplum Bilimleri Fakültesi \nGüzel Sanatlar Tasarım ve Mimarlık Fakültesi \nMühendislik ve Doğa Bilimleri Fakültesi \nİletişim Fakültesi\nDiş Hekimliği Fakültesi\nSağlık Bilimleri Fakültesi \nİktisadi, İdari ve Sosyal Bilimler Fakültesi \nTıp fakültesi \nYüksekokullar: \n\nMeslek Yüksek Okulu \nSağlık Hizmetleri Meslek Yüksekokulu "
+      ]
+    },
+    {
+      "tag": "uzaktan_egitim",
+      "patterns": [
+        "Uzaktan eğitim",
+        "Uzaktan eğitim hakkında bilgi verir misin",
+        "Uzaktan eğitim olanakları",
+        "Uzaktan eğitim imkanları",
+        "Üniversitenizde Uzaktan Eğitim Programları Mevcut Mu?"
+      ],
+      "responses": [
+        "Lisans bölümlerimiz ve önlisans programlarımız bu yıl örgün eğitim vermektedir. Fakat bazı derslerimiz için ihtiyaç duyulur ise uzaktan eğitim verilebilir. Bunlar Atatürk İlkeleri ve İnkılap Tarihi, Türk Dili gibi zorunlu derslerdir."
+      ]
+    },
+    {
+      "tag": "egitim_dili",
+      "patterns": [
+        "Eğitim dili",
+        "Eğitim dili hakkında bilgi verir misin",
+        "Eğitim dili nedir",
+        "Üniversitenizde Eğitim Dili Nedir?"
+      ],
+      "responses": [
+        "Üniversitemizde İngilizce ve Türkçe eğitim programları bulunmaktır."
+      ]
+    },
+    {
+      "tag": "harf_sistemi",
+      "patterns": [
+        "Harf sistemi",
+        "Harf sistemi hakkında bilgi verir misin",
+        "Harf sistemi nedir",
+        "Üniversitenizde Harf Sistemi Nedir?",
+        "Üniversitenizde Harf Notu Sistemi Nasıl İşliyor?",
+        "Üniversitenizde Harf Notu Sistemi Nedir?",
+        "Üniversitenizde Harf Notu Sistemi Hakkında Bilgi Verir Misiniz?",
+        "Harfli sistemde not karşılıkları nelerdir"
+      ],
+      "responses": [
+        "Harfli sistemde notların karşılığı AA – 4.00, BA -3.5, BB – 3.00, CB – 2.5, CC – 2.00,DC – 1.5, DD – 1.0, FF – 0 şeklindedir. Not karşılıklarını ve değerlendirmeleri ilgili öğretim elemanı belirlemektedir."
+      ]
+    },
+    {
+      "tag": "ders_tekrarı",
+      "patterns": [
+        "Ders tekrarı",
+        "Ders tekrarı hakkında bilgi verir misin",
+        "Ders tekrarı nasıl yapılır",
+        "Ders tekrarı için ne yapmalıyım",
+        "Ders tekrarı hakkında bilgi verir misiniz?",
+        "Ders Tekrarı Yapmayı Gerektiren Durumlar Nelerdir?",
+        "Dersten kalma",
+        "Dersten kaldım",
+        "Dersten hangi durumlarda kalınır"
+      ],
+      "responses": [
+        "Öğrenciler FF veya DZ harf notu aldıkları dersleri tekrarlamak zorundadırlar. Ayrıca mezuniyet durumunda Genel Not Ortalaması 2.00’ın altında olan öğrenciler mezuniyet için ortalamasını 2.00 ve üzerine çıkartmak zorundadır. Bunun için öğrenciler şartlı geçtikleri ders/dersleri (DD ve DC) tekrar alıp ortalamalarını yükseltebilirler."
+      ]
+    },
+    {
+      "tag": "devam_zorunlulugu",
+      "patterns": [
+        "Devam zorunluluğu",
+        "Devam zorunluluğu hakkında bilgi verir misin",
+        "Devam zorunluluğu nedir",
+        "Üniversitenizde Devam Zorunluluğu Nedir?",
+        "Üniversitenizde Devam Zorunluluğu Hakkında Bilgi Verir Misiniz?",
+        "Üniversitenizde Devam Zorunluluğu Var Mı?"
+      ],
+      "responses": [
+        "Evet, teorik derslere %70, uygulamalara %80 devam zorunluluğu vardır. Devam takibi, ilgili öğretim elemanı tarafından yapılır."
+      ]
+    },
+    {
+      "tag": "dersten_kalma_burs_kesilmesi",
+      "patterns": [
+        "Dersten kalma burs kesilmesi",
+        "Dersten kalma burs kesilmesi hakkında bilgi verir misin",
+        "Dersten kalma burs kesilmesi nasıl olur",
+        "Dersten kalma burs kesilmesi hakkında bilgi verir misiniz?",
+        "Dersten Kaldığımda Bursum Kesilir Mi?",
+        "Dersten Kaldığımda Burs Kesilir Mi?",
+        "Bir Dersten Kalınırsa Burs Kesilir Mi?"
+      ],
+      "responses": [
+        "ÖSYM bursları karşılıksız olup başarı şartı aranmamaktadır. Bursun süresi eğitim dönemi bitene kadar devam eder. Diğer burslar ise bursu kazandığınız yıl ilan edilen koşullar ve https://www.istinye.edu.tr/sites/istinye.edu.tr/files/docs/2018-09/onlisans-lisans-burs-indirim-yonergesi.pdf adresinde bulabileceğiniz Burs ve İndirim Yönergesine göre geçerlidir."
+      ]
+    },
+    {
+      "tag": "yurt",
+      "patterns": [
+        "Yurt",
+        "Yurt hakkında bilgi verir misin",
+        "Yurt olanakları",
+        "Yurt imkanları",
+        "Yurt olanakları hakkında bilgi verir misiniz",
+        "Yurt İmkanları Nelerdir?"
+      ],
+      "responses": [
+        "Bölgemizdeki 8 adet kız, 3 adet erkek yurdu İstinye Üniversitesi öğrencilerine indirim uygulamaktadır. Bu yurtlarla ilgili detaylı bilgi için; İsu İndirimli Yurtlar \nAyrıca öğrencilerimiz Kredi Yurtlar Kurumu’na bağlı yurtlardan da yararlanabilmektedirler."
+      ]
+    },
+    {
+      "tag": "ogrenci_kulupleri",
+      "patterns": [
+        "Öğrenci kulüpleri",
+        "Öğrenci kulüpleri hakkında bilgi verir misin",
+        "Öğrenci kulüpleri nelerdir",
+        "Üniversitenizde Öğrenci Kulüpleri Var Mı?"
+      ],
+      "responses": [
+        "Üniversitemizde 50’ye yakın öğrenci kulübü faaliyet göstermektedir. \nDetaylı bilgi için https://omer.istinye.edu.tr/tr/kulupler/kulupler-listesi"
+      ]
+    },
+    {
+      "tag": "staj",
+      "patterns": [
+        "Staj",
+        "Staj hakkında bilgi verir misin",
+        "Staj olanakları",
+        "Staj imkanları",
+        "Staj olanakları hakkında bilgi verir misiniz",
+        "Staj İmkanları Nelerdir?",
+        "Staj Yapma Zorunluluğu Var Mı?",
+        "Staj Koşullarını Yerine Getirmediğim Taktirde Karşılaşacağım Sorunları Nelerdir?"
+      ],
+      "responses": [
+        "Zorunlu stajı olan bölümlerimizde staj, öğrencilerimizin tıpkı dersleri gibi başarıyla tamamlamaları gereken süreçlerden biridir. Staj şartlarını yerine getirmeyen öğrenciler öğrenim süresini uzatma, mezun olamama gibi problemlerle karşı karşıya kalabilirler."
+      ]
+    },
+    {
+      "tag": "staj_sıgorta",
+      "patterns": [
+        "Staj sigortası",
+        "Staj sigortası hakkında bilgi verir misin",
+        "Staj sigortası nasıl yapılır",
+        "Staj sigortası hakkında bilgi verir misiniz?",
+        "Staj Yaparken Sigorta Yaptırmam Gerekiyor Mu?",
+        "Staj Yaparken Sigorta Yaptırmak Zorunlu Mu?",
+        "Staj Döneminde Sigorta Yapılıyor Mu? Ücret Ödeniyor Mu?"
+      ],
+      "responses": [
+        "Öğrencilerimiz müfredatlarında yer alan zorunlu stajlarını yaparken, öğrencilerin sigorta primleri İstinye Üniversitesi tarafından karşılanmaktadır. Staj yapılacak kurumların öğrencilerimize yol-yemek gibi konularda destek olması kurumun inisiyatifindedir. Staj ücreti konusu ise Mesleki Eğitim Kanunu’na göre düzenlenir ve ücret ödeme yükümlülüğü bulunan kurumlar tarafından öğrenciye ödenir."
+      ]
+    }
+  ]
+}
